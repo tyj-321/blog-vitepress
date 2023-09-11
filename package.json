@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "medium-zoom": "^1.0.8",
+    "vite-plugin-vitepress-medium-zoom": "^0.0.2",
+    "vitepress": "1.0.0-rc.4"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --host",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  }
+}
