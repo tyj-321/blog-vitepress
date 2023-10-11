@@ -12,7 +12,7 @@ export default {
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'blog', link: '/menu/2023/publish_npm' },
+      { text: 'blog', link: '/menu/2023/chrome117-mock' },
     ],
 
     sidebar: {
@@ -20,6 +20,7 @@ export default {
         {
           text: '2️⃣0️⃣2️⃣3️⃣',
           items: [
+            { text: 'chrome117发起mock请求', link: '/menu/2023/chrome117-mock' },
             { text: '发布npm依赖包', link: '/menu/2023/publish_npm' },
             { text: 'pnpm依赖包管理', link: '/menu/2023/pnpm' }
           ]
