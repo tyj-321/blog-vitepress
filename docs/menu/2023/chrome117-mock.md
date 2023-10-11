@@ -7,32 +7,32 @@ chrome117版本更新中提供了一个可以在network面板直接发起mock请
 
 新写的接口直接发起请求，是会报错404的
 
-![](../../public/chrome117-mock/新请求404.png)
+![](/chrome117-mock/新请求404.png)
 
 右键接口，选择`Override content`，首次使用需要选择目标文件夹，可以在桌面创建一个文件夹即可，并`select folder`选择该文件夹
 
-![](../../public/chrome117-mock/select-folder.png)
+![](/chrome117-mock/select-folder.png)
 
 并选择访问权限允许
 
-![](../../public/chrome117-mock/允许权限.png)
+![](/chrome117-mock/允许权限.png)
 
 
 :::tip
 - 右键接口，选择`Override headers`，这里可以配置返回头部信息，加上`Content-Type:application/json;charset=UTF-8`可以避免一些中文乱码的问题
-![](../../public/chrome117-mock/header.png)
+![](/chrome117-mock/header.png)
 - 返回的json内容需要key和value都加上双引号，才能返回正确，类似下面这样
-![](../../public/chrome117-mock/json.png)
+![](/chrome117-mock/json.png)
 :::
 
 然后在network面板中就可以看到这个有个标记的接口，并返回mock数据
 
-![](../../public/chrome117-mock/成功返回mock数据.png)
+![](/chrome117-mock/成功返回mock数据.png)
 
 ## 取消使用本地mock数据
 在mock数据配置中取消勾选`Enable Local Overrides`，并清除即可，这样就不会使用本地的mock数据了
 
-![](../../public/chrome117-mock/取消使用mock.png)
+![](/chrome117-mock/取消使用mock.png)
 
 ## 总结
 chrome117版本更新中新增的直接在network页面发起mock请求的功能，整体体验还是比较丝滑
