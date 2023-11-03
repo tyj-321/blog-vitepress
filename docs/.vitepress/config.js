@@ -11,6 +11,11 @@ export default {
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      src: 'https://api.iconify.design/emojione:aerial-tramway.svg',
+      width: 40,
+      height: 40
+    },
     nav: [
       { text: 'blog', link: '/menu/2023/chrome117-mock' },
     ],
