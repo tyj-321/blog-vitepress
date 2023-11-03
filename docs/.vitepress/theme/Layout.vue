@@ -23,11 +23,9 @@ function handleKeydown(event) {
   }
 }
 onMounted(() => {
-  console.log(1111);
   document.addEventListener("keydown", handleKeydown);
 });
 onBeforeUnmount(() => {
-  console.log(2222);
   document.removeEventListener("keydown", handleKeydown);
 });
 const { Layout } = DefaultTheme;
