@@ -17,7 +17,7 @@ export default {
       height: 40
     },
     nav: [
-      { text: 'blog', link: '/menu/2023/chrome117-mock' },
+      { text: 'blog', link: '/menu/2023/bash-alias' },
     ],
 
     sidebar: {
@@ -25,9 +25,10 @@ export default {
         {
           text: '2️⃣0️⃣2️⃣3️⃣',
           items: [
-            { text: 'chrome117发起mock请求', link: '/menu/2023/chrome117-mock' },
-            { text: '发布npm依赖包', link: '/menu/2023/publish_npm' },
-            { text: 'pnpm依赖包管理', link: '/menu/2023/pnpm' }
+            { text: 'git bash配置命令行别名技巧🥓', link: '/menu/2023/bash-alias' },
+            { text: 'chrome117发起mock请求🍕', link: '/menu/2023/chrome117-mock' },
+            { text: '发布npm依赖包🍥', link: '/menu/2023/publish_npm' },
+            { text: 'pnpm依赖包管理🍟', link: '/menu/2023/pnpm' }
           ]
         },
         {
